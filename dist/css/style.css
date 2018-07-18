@@ -1,0 +1,121 @@
+
+/*base style*/
+body{
+  font-family: SimSun;
+}
+embed{
+  width: 100%;
+  height: 400px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+  border-radius: 4px;
+}
+.w{
+  margin: 0 auto;
+  padding: 0;
+}
+.inner{
+  width: 1200px;
+}
+.more{
+  float: right;
+}
+a{
+  color: #ffffff;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+  text-decoration: none;
+}
+a:hover{
+  color: #888;
+}
+/*nav style*/
+.navbar{
+  margin-bottom: 0;
+}
+.navbar-nav>li>a{
+  line-height: 70px;
+}
+.navbar-default{
+  background-image: linear-gradient(to bottom, #f5f4d9 0%, #f8f8f8 100%);
+}
+.navbar-brand{
+  height: auto;
+  padding: 0;
+}
+.navbar-brand{
+  display: block;
+
+}
+.navbar-brand img{
+  display: inline-block;
+  vertical-align: top;
+}
+.navbar-brand div{
+  display: inline-block;
+}
+.navbar-brand h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar-brand p{
+  /*display: ;*/
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a{
+  background-image: linear-gradient(to bottom, #dbdbdb 0%, #f8f8f8 100%);
+}
+/*banner*/
+.jumbotron{
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.jumbotron img{
+  width: 100%;
+}
+/*company-tag*/
+.company-tag{
+  background-color: #3e0c85;
+  color: #ffffff;
+  height: 70px;
+  line-height: 70px;
+  padding-left: 20px;
+}
+.company-tag h2{
+  display: inline;
+  font-size: 20px;
+}
+.video{
+  width: 100%;
+  /*background-color: #000;*/
+  background: url("../img/technology.jpg") repeat-y fixed;
+  background-size: 100% auto;
+}
+
+/*propaganda-img*/
+.propaganda{
+  background: url("../img/technology.jpg") repeat-y fixed;
+  background-size: 100% auto;
+}
+.propaganda .row{
+  margin: 20px auto;
+  /*height: 370px;*/
+  /*overflow: hidden;*/
+}
+#company-propaganda .item,#company-investment .item{
+  height: 300px;
+  overflow: hidden;
+}
+.carousel-caption{
+  text-shadow: none;
+  background-color: rgba(0,0,0,.6);
+}
+
