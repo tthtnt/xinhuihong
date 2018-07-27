@@ -383,3 +383,8 @@ img{
   background-color: rgba(0,0,0,.6); 
   margin: 0;
 }
+/* 轮播 */
+.eye-product{
+  height: 600px;
+  background-color: papayawhip;
+}
