@@ -351,16 +351,6 @@ img{
 .carousel .carousel-control.left,.carousel .carousel-control.right{
   background-image: none;
 }
-/* .foot{width:100%;height:205px;background: #434243;}
-.footer{width:1200px; margin:0 auto;}
-.foot1,.foot2,.foot3{float: left;}
-.foot1{padding-top: 80px; width:300px; height:63px; padding-left: 5px;}
-.foot1 img{float: left;margin-right:5px; width:56px; height:56px;}
-.foot_1{color:#fff;font-size:14px;font-weight:bold;}
-.foot2{width:290px; height:140px;overflow: hidden;margin-top: 50px;margin-left: 40px;}
-.foot2 ul li{float: left; margin-right: 10px;margin-bottom: 0px;list-style: none;}
-.foot2 ul li a{font-size:18px ;color:#fff ;line-height:35px ;font-weight:bold; }
-.foot3{width:450px; height:120px;overflow: hidden;margin-top: 45px;margin-left: 40px;font-size:15px ;color:#c2c2bf ;line-height:30px ;} */
 .end{width:100%;height:60px; background: #282628;}
 .end:hover{
   background-color: #454545;
@@ -377,5 +367,19 @@ img{
     height: auto;
     width /***/: auto;
 }
-/* .ed{width:1200px; margin:0 auto;}
-.ed a{float: right;margin-right:200px;position: relative;top:-20px;} */
+
+
+/* eyewear-product */
+.banner{
+  height: 200px;
+  /* background-color: paleturquoise; */
+  background: url("../img/eyewear-banner.jpg") no-repeat top left;
+}
+.banner h1{
+  height: 200px;
+  line-height: 200px;
+  padding-left:200px;
+  color: #fff;
+  background-color: rgba(0,0,0,.6); 
+  margin: 0;
+}
