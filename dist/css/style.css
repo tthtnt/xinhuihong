@@ -2,7 +2,7 @@
 /*base style*/
 body{
   /* font-family: 'Roboto', sans-serif; */
-  font-family: SimHei,"Microsoft YaHei";
+  font-family: "Microsoft YaHei",SimHei;
   width: 100%;
   height: auto;
   overflow-x: hidden;
@@ -201,6 +201,34 @@ img{
   color: #fff;
 }
 /*导航栏结束*/
+
+/*联系我们按钮开始*/
+.cont-us-btn{
+  width: 80px;
+  height: 80px;
+  /*background-color: palegoldenrod;*/
+  position: fixed;
+  right: 100px;
+  top: 70%;
+  z-index: 999;
+  background: url("../img/cont-us.png");
+  /*overflow: hidden;*/
+}
+.cont-us-btn img{
+  position: absolute;
+}
+.cont-us-btn a{
+  display: block;
+}
+
+.cont-logo{
+  transform: translateY(-10%);
+  transition: all .6s;
+}
+.cont-us-btn a:hover .cont-logo{
+  transform: translateY(-70%);
+}
+/*联系我们按钮结束*/
 /*面包屑开始*/
 .breadcrumb{
   width: 60%;
@@ -623,11 +651,11 @@ img{
   margin: 0 auto;
   padding-top: 40px;
 }
-.about-inner  ul  li,.inves-inner ul li,.glasses-inner ul li{
+.about-inner  ul  li,.inves-inner ul li,.common-inner ul li{
   list-style: none;
   font-size: 18px;
 }
-.about-inner > ul > li:before,.inves-inner > ul > li:before,.glasses-inner > ul > li:before{
+.about-inner > ul > li:before,.inves-inner > ul > li:before,.common-inner > ul > li:before{
   content: "";
   display: inline-block;
   width: 5px;
@@ -747,6 +775,149 @@ img{
   width: 30%;
   margin: 0 auto;
 }
+
+.talent-text{
+  text-align: center;
+  letter-spacing: 10px;
+  margin: 20px 0;
+}
+.talent-ul ul{
+  margin-top: 35px;
+  overflow: auto;
+}
+.talent-ul li{
+  width: 50%;
+  margin: 30px 0;
+  float: left;
+}
+.talent-ul li>div{
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid #efc49d;
+  box-shadow: 0 0 4px #efc49d;
+  border-radius: 10px;
+  padding: 40px 55px;
+}
+.talent-ul li div span{
+  padding-left: 15%;
+}
+.btn-class{
+  overflow: auto;
+}
+.talent-ul button{
+  height: 45px;
+  padding: 0 40px;
+  background-color: #eeeeee;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  line-height: 45px;
+  float: right;
+}
+.modal-talent .modal-content{
+  background-color: #f2f2f2;
+}
+.modal-talent .close{
+  border-radius: 50%;
+  background-color: #bebebe;
+  color: #ffffff;
+}
+.talent-header{
+  width: 95%;
+  margin: 30px auto 0;
+  background-color: #fff;
+  box-shadow: 0 3px 4px #b5b5b5;
+  padding: 40px 30px 10px;
+}
+.talent-header h4{
+  font-size: 28px;
+  font-weight: 800;
+  display: inline;
+}
+.talent-header span{
+  font-size: 20px;
+  color: #b5b5b5;
+}
+.talent-header p{
+  line-height: 30px;
+  font-size: 20px;
+}
+.talent-header-text{
+  margin-top: 20px;
+}
+.experience ul{
+
+  overflow: auto;
+
+}
+.modal-body .experience li{
+  width: 20%;
+  text-align: center;
+  float: left;
+  font-size: 20px;
+  padding: 10px;
+}
+.line{
+  width: 95%;
+  margin: 20px auto;
+  border-bottom: 2px solid #b4b4b4;
+}
+.talent-inner{
+  width: 95%;
+  margin: 0 auto;
+}
+.talent-line{
+  font-size: 28px;
+  border-left: 5px solid #d87014;
+  margin-right: 20px;
+}
+.talent-inner h5{
+  font-size: 28px;
+  font-weight: 800;
+}
+.talent-inner p{
+  padding:0 30px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.form-in{
+  margin: 20px auto;
+  border: 2px solid #efc49d;
+  box-shadow: 0 0 4px #efc49d;
+  border-radius: 10px;
+  overflow: auto;
+  padding: 50px 100px;
+}
+.form-in form{
+  display: block;
+}
+.form-in .col-md-4,.form-in .col-md-12{
+  margin: 30px 0;
+}
+.form-in input{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #dcdcdc;
+}
+.form-in .col-md-12{
+  overflow: auto;
+}
+.form-in .col-md-12 button{
+  width: 135px;
+  float: right;
+  border: none;
+  font-size: 30px;
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: #e47413;
+  line-height: 55px;
+}
+.form-inline .form-group{
+  width: 100%;
+}
+.form-in .upload{
+  width: 88%;
+}
 /*about-us end*/
 
 
@@ -826,37 +997,41 @@ img{
 }
 
 
-/*子页*/
-.glasses-inner{
+/*眼镜子页*/
+.common-inner{
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px 0;
 }
-.glasses-inner p{
+.common-inner p{
   padding:0 40px;
-  line-height: 30px;
+  line-height: 40px;
+  font-size: 20px;
 }
-.glasses-inner p span{
+.common-inner p span,.restore-inner p span{
   color: #e47413;
   font-size: 31px;
 }
-.glasses-inner ul{
+.common-inner ul{
   overflow: auto;
 }
-.glasses-inner li{
+.common-inner ul li{
   width: 50%;
   float: left;
 }
-.glasses-inner .myopia li{
+.common-inner li div img{
+  height: 350px;
+}
+.common-inner .myopia li,.common-inner .exercise li,.common-inner .subsidiary li{
   width: 33%;
 }
-.glasses-inner .subsidiary li{
-  width: 33%;
+.common-inner .myopia li img,.common-inner .exercise li img,.common-inner .subsidiary li img,.common-inner .system li img{
+  height: 250px;
 }
-.glasses-inner .subsidiary li div{
+.common-inner .subsidiary li div{
   padding: 20px;
 }
-.glasses-inner .subsidiary li:before{
+.common-inner .subsidiary li:before{
   content: none;
 }
 .modal-btn{
@@ -879,4 +1054,39 @@ img{
   width: 50%;
   float: left;
   padding: 20px;
+}
+/*眼镜子页结束*/
+
+/*康复子页*/
+.common-inner .restore li,.common-inner .device li{
+  padding-top: 40px;
+  padding-right: 40px;
+}
+.common-inner .restore li::before{
+  content: none;
+}
+.common-inner ol{
+  padding-left: 100px;
+  font-size: 20px;
+  line-height: 40px;
+}
+.other-img{
+  width: 40%;
+  margin: 20px auto;
+}
+
+/*设备子页*/
+.common-inner .device li div{
+  margin: 20px 0;
+  border: 2px solid #e8e8e8;
+}
+.common-inner .device li p{
+  text-align: center;
+}
+.common-inner .system li{
+  width: 100%;
+  margin: 20px 0;
+}
+.common-inner .system li div{
+  margin: 10px 0;
 }
