@@ -290,6 +290,7 @@ img{
 .index-product .col-md-4{
   /*background-color: palegreen;*/
   padding: 0;
+
 }
 .index-product .col-md-4:nth-child(1){
   padding-right: 40px;
@@ -302,7 +303,7 @@ img{
 }
 .index-product a{
   display: block;
-  height: 150px;
+  height: 120px;
   overflow: hidden;
   position: relative;
 }
@@ -312,11 +313,15 @@ img{
   width: 100%;
   height: 100%;
   text-align: center;
-  line-height: 150px;
+  line-height: 120px;
   font-size: 28px;
   background-color: rgba(0,0,0,.5);
   color: #ffffff;
   transition: background-color .4s;
+}
+.index-product img{
+  width: 100%;
+  height: 120px;
 }
 .index-product a:hover div{
   background-color: rgba(0,0,0,.3);
@@ -339,21 +344,21 @@ img{
   position: absolute;
 }
 .big-product:nth-child(1){
-  background: url("../img/big-product-01.jpg") no-repeat;
+  background: url("../img/眼镜产品系列.jpg") no-repeat;
 }
 .big-product:nth-child(1) h2{
   top: 80px;
   right: 360px;
 }
 .big-product:nth-child(2){
-  background: url("../img/big-product-02.jpg") no-repeat;
+  background: url("../img/康复1.jpg") no-repeat;
 }
 .big-product:nth-child(2) h2{
   top: 120px;
-  left: 360px;
+  right: 360px;
 }
 .big-product:nth-child(3){
-  background: url("../img/big-product-03.jpg") no-repeat;
+  background: url("../img/科技.jpg") no-repeat;
 }
 .big-product:nth-child(3) h2{
   top: 115px;
@@ -491,12 +496,30 @@ img{
 
 /*banner*/
 .banner{
-  height: 200px;
+  height: 450px;
   background: url("../img/eyewear-banner.jpg") no-repeat top left;
 }
+.banner.re-banner{
+  background: url("../img/康复banner.jpg") no-repeat top left;
+}
+.banner.eq-banner{
+  background: url("../img/设备banner.jpg") no-repeat top left;
+}
+.banner.eye-banner{
+  background: url("../img/眼镜产品系列banner.jpg") no-repeat top left;
+}
 .banner.about-banner{
-  background: url("../img/banner-bg.jpg");
-  height: 450px;
+  background: url("../img/关于我们.jpg") no-repeat;
+}
+.banner.news-banner{
+  background: url("../img/新闻动态.jpg") no-repeat;
+}
+.banner.cont-banner{
+  background: url("../img/联系我们.jpg") no-repeat;
+}
+.banner.investment-banner{
+  background: url("../img/招商.jpg") no-repeat;
+  height: 660px;
 }
 .banner h1{
   height: 200px;
@@ -1362,5 +1385,6 @@ img{
   margin-right: 20px;
 }
 .case .sample-img img{
+  height: auto;
   height: auto;
 }
