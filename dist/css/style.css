@@ -23,6 +23,7 @@ body{
 .w{
   margin: 0 auto;
   padding: 0;
+  width: 100%;
   /*background-color: #fbfaea;*/
 }
 .inner{
