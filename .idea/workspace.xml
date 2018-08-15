@@ -2,7 +2,7 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/dist/restore-05.html" line="195" />
-    <bookmark url="file://$PROJECT_DIR$/dist/css/style.css" line="234" />
+    <bookmark url="file://$PROJECT_DIR$/dist/css/style.css" line="232" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d3cb108-1af8-448e-8a8a-ffbb25835e0b" name="默认" comment="">
@@ -47,14 +47,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
+          <entry key="css" value="8" />
           <entry key="html" value="107" />
           <entry key="js" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
+          <entry key="CSS" value="8" />
           <entry key="HTML" value="107" />
           <entry key="JavaScript" value="9" />
         </counts>
@@ -66,13 +66,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1108">
-              <caret line="8" column="155" selection-start-line="8" selection-start-column="155" selection-end-line="8" selection-end-column="155" />
+            <state relative-caret-position="270">
+              <caret line="215" column="29" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="29" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
@@ -86,9 +85,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="76">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1311" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/css/normalize.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5721" />
           </provider>
         </entry>
       </file>
@@ -116,13 +129,14 @@
       <find>ladder-icon</find>
       <find>li:before</find>
       <find>about-banner</find>
-      <find>index-product</find>
       <find>banner</find>
       <find>big-product</find>
       <find>.video</find>
       <find>.propaganda a img</find>
-      <find>body</find>
       <find>propaganda</find>
+      <find>inner</find>
+      <find>body</find>
+      <find>index-product</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -267,12 +281,12 @@
       <workItem from="1533516722893" duration="77000" />
       <workItem from="1533947368216" duration="9684000" />
       <workItem from="1534121598330" duration="1427000" />
-      <workItem from="1534303235372" duration="8416000" />
+      <workItem from="1534303235372" duration="9541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131055000" />
+    <option name="totallyTimeSpent" value="132180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -367,11 +381,6 @@
         <state relative-caret-position="806">
           <caret line="148" column="9" selection-start-line="148" selection-start-column="9" selection-end-line="148" selection-end-column="9" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/about.html">
@@ -565,13 +574,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1108">
-          <caret line="8" column="155" selection-start-line="8" selection-start-column="155" selection-end-line="8" selection-end-column="155" />
+        <state relative-caret-position="270">
+          <caret line="215" column="29" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="29" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
@@ -581,10 +589,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1311" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5721" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="76">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
