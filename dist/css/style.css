@@ -348,6 +348,7 @@ img{
   bottom: 0;
   right: 0;
   left: 0;
+  z-index: 998;
 }
 .big-product:nth-child(1){
   background: url("../img/眼镜产品系列.jpg") no-repeat;
