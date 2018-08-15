@@ -371,9 +371,11 @@ img{
   padding: 60px 0 0;
 }
 /*企业宣传开始*/
+.propaganda{
+  overflow: auto;
+}
 .propaganda .col-md-3{
   padding: 0;
-  overflow: auto;
 }
 .propaganda a{
   display: block;
@@ -1496,16 +1498,26 @@ img{
     text-align: center;
     border-top: 1px solid #d8d8d8;
     border-bottom: 1px solid #d8d8d8;
+    font-size: 16px;
+  }
+  .mobile-footer-top h3{
+    font-size: 16px;
+    margin: 10px 0;
   }
   .mobile-footer-bottom{
-    width: 70%;
-    margin: 0 auto 50px;
+    width: 90%;
+    margin: 10px auto 20px;
+  }
+  .mobile-footer-bottom ul{
+    overflow: auto;
+    padding: 0;
   }
   .mobile-footer-bottom ul li{
     list-style: none;
     float: left;
     width: 16%;
     text-align: center;
+    font-size: 12px;
   }
   .mobile-header{
     display: block;
@@ -1520,5 +1532,7 @@ img{
     padding-right: 30px;
     margin: 0;
   }
-
+  .propaganda a p{
+    font-size: 12px;
+  }
 }
