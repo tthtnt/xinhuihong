@@ -336,10 +336,11 @@ img{
   position: relative;
 }
 .big-product a{
-  width: 100%;
-  height: 100%;
   position: absolute;
   top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 .big-product:nth-child(1){
   background: url("../img/眼镜产品系列.jpg") no-repeat;
