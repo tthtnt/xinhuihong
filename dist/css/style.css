@@ -1,5 +1,9 @@
 
 /*base style*/
+html{
+  width: 100%;
+  overflow-x: hidden;
+}
 body{
   /* font-family: 'Roboto', sans-serif; */
   font-family: "Microsoft YaHei",SimHei;
@@ -254,6 +258,9 @@ img{
 /*面包屑结束*/
 
 /*轮播图开始*/
+.carousel{
+  width: 100%;
+}
 #carousel .carousel-inner .item{
   height: 660px;
 }
