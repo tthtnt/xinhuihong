@@ -373,6 +373,7 @@ img{
 /*企业宣传开始*/
 .propaganda .col-md-3{
   padding: 0;
+  overflow: auto;
 }
 .propaganda a{
   display: block;
@@ -1387,10 +1388,16 @@ img{
   height: auto;
   height: auto;
 }
+.mobile-footer{
+  display: none;
+}
+.mobile-header{
+  display: none;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+  margin: 0;
+}
 @media screen and (max-width: 768px) {
-  body{
-    overflow: hidden;
-  }
   #carousel .carousel-inner .item{
     height: auto;
   }
@@ -1412,4 +1419,106 @@ img{
   .cont-us-btn{
     display: none;
   }
+  /*导航栏*/
+  .navbar-default .container-fluid{
+    padding: 0;
+  }
+  .navbar-header{
+    height: auto;
+  }
+  .navbar-brand{
+    height: auto;
+  }
+  .navbar-brand>img{
+    width: 50px;
+    vertical-align: bottom;
+  }
+  .navbar-brand h1{
+    font-size: 20px;
+  }
+  .navbar-brand p{
+    font-size: 12px;
+  }
+  .navbar-collapse{
+    width: 35%;
+    position: absolute;
+    right: 0;
+    z-index: 999;
+    padding: 0;
+    background-color: rgba(255,255,255,.7);
+  }
+  .navbar-nav{
+    margin: 0;
+  }
+  .dropdown{
+    padding: 0;
+  }
+  .navbar-nav>li>a{
+    padding: 0 15px;
+  }
+  .navbar-nav>li>a{
+    font-size: 16px;
+  }
+  .nav>li{
+    background:none;
+  }
+  .dropdown .caret{
+    display: none;
+  }
+  .dropdown-menu{
+    display: none;
+  }
+  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    background-color: transparent;
+  }
+  .navbar-nav>li.cont{
+    width: auto;
+    text-align: left;
+  }
+  .navbar-nav>li.cont a{
+    font-size: 16px;
+  }
+  .navbar-default .navbar-nav>li.cont>a, .navbar-default .navbar-nav>li.cont>a:focus, .navbar-default .navbar-nav>li.cont>a:hover{
+    background: none;
+    color: #454545;
+    letter-spacing: normal;
+  }
+  /*联系电话不显示*/
+  .phone{
+    display: none;
+  }
+  .mobile-footer{
+    display: block;
+  }
+  .mobile-footer-top{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+  }
+  .mobile-footer-bottom{
+    width: 70%;
+    margin: 0 auto 50px;
+  }
+  .mobile-footer-bottom ul li{
+    list-style: none;
+    float: left;
+    width: 16%;
+    text-align: center;
+  }
+  .mobile-header{
+    display: block;
+
+    background-color: #d8d8d8;
+  }
+  .mobile-header h1{
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 30px;
+    margin: 0;
+  }
+
 }
