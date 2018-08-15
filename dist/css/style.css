@@ -1388,6 +1388,9 @@ img{
   height: auto;
 }
 @media screen and (max-width: 768px) {
+  body{
+    overflow: hidden;
+  }
   #carousel .carousel-inner .item{
     height: auto;
   }
