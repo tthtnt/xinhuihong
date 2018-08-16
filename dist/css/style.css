@@ -1614,10 +1614,18 @@ img{
     position: absolute;
     bottom: 0;
     width: 50%;
+    height: 50%;
   }
   .mobile-inner-text p{
     font-size: 10px;
     text-indent: 2em;
-    padding: 5px;
+    padding: 5px 5px 0 5px;
+    display: -webkit-box;
+
+    -webkit-box-orient: vertical;
+
+    -webkit-line-clamp: 4;
+
+    overflow: hidden;
   }
 }
