@@ -1580,6 +1580,7 @@ img{
   .mobile-inner-left,.mobile-inner-right{
     width: 50%;
     float: left;
+    position: relative;
   }
   .mobile-inner-left h3,.mobile-inner-right h3{
     margin: 0;
@@ -1599,6 +1600,8 @@ img{
   .mobile-inner-text{
     border-radius: 5px;
     border: 1px solid #06508c;
+    position: relative;
+    bottom: 0;
   }
   .mobile-inner-text p{
     font-size: 10px;
