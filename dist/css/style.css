@@ -1578,6 +1578,10 @@ img{
     overflow: hidden;
     position: relative;
   }
+  .mobile-inner-img{
+    position: relative;
+    z-index: 9;
+  }
   .mobile-inner-left,.mobile-inner-right{
     width: 50%;
     float: left;
@@ -1595,13 +1599,21 @@ img{
     background-color: rgba(238,119,0,.6);
     color: #fff;
     border-radius: 5px;
+    position: relative;
+    z-index: 10;
+  }
+  .mobile-inner-right .mobile-inner-title{
     margin-left: -15%;
+  }
+  .mobile-inner-left .mobile-inner-title{
+    margin-left: 35%;
   }
   .mobile-inner-text{
     border-radius: 5px;
     border: 1px solid #06508c;
     position: absolute;
     bottom: 0;
+    width: 50%;
   }
   .mobile-inner-text p{
     font-size: 10px;
