@@ -1565,7 +1565,7 @@ img{
   .index-product .col-md-4:nth-child(1),.index-product .col-md-4:nth-child(3){
     padding: 0 20px;
   }
-  .eye-product{
+  .eye-product,.re-product,.she-product{
     display: none;
   }
   .breadcrumb{
@@ -1577,6 +1577,9 @@ img{
     margin: 20px auto 0;
     overflow: hidden;
     position: relative;
+  }
+  .mobile-inner:last-child{
+    margin-bottom: 20px;
   }
   .mobile-inner-img{
     position: relative;
@@ -1616,11 +1619,8 @@ img{
     width: 50%;
     height: 60%;
     display: -webkit-box;
-
     -webkit-box-orient: vertical;
-
     -webkit-line-clamp: 4;
-
     overflow: hidden;
   }
   .mobile-inner-text p{
@@ -1628,11 +1628,54 @@ img{
     text-indent: 2em;
     padding: 5px 5px 0 5px;
     display: -webkit-box;
-
     -webkit-box-orient: vertical;
-
     -webkit-line-clamp: 4;
-
     overflow: hidden;
+  }
+  .contact-map{
+    height: 300px;
+  }
+  .contact-text dt{
+    font-size: 16px;
+    padding-left: 20px;
+  }
+  .contact-text dd{
+    font-size: 12px;
+    padding-left: 20px;
+  }
+  .contact-text span img{
+    width: 20px;
+    height: 20px;
+  }
+  .about-inner ul{
+    padding-left: 20px;
+  }
+  .course-img{
+    width: 50%;
+  }
+  .inner-left,.inner-right{
+    /*padding-top: 40px;*/
+  }
+  .inner-left{
+    padding-right: 40px;
+  }
+  .inner-right{
+    padding-left: 40px;
+    padding-right: 10px;
+  }
+  .inner-left p,.inner-right p{
+    font-size: 12px;
+  }
+  .purpose-text{
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: 5px;
+  }
+  .feature li span{
+    width: 25px;
+    height: 25px;
+  }
+  .feature li p{
+    font-size: 12px;
   }
 }
