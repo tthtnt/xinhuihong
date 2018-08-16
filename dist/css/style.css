@@ -1615,6 +1615,13 @@ img{
     bottom: 0;
     width: 50%;
     height: 60%;
+    display: -webkit-box;
+
+    -webkit-box-orient: vertical;
+
+    -webkit-line-clamp: 4;
+
+    overflow: hidden;
   }
   .mobile-inner-text p{
     font-size: 10px;
