@@ -2036,6 +2036,35 @@ img{
   .common-inner .device li p{
     padding: 0 5px;
   }
+  .common-inner .device li div img{
+    height: auto;
+  }
+  /*多重导航栏*/
+  .navbar-toggle{
+    position: absolute;
+    right: 10px;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .center-logo{
+    width: 75%;
+    margin: 0 auto;
+    float: none;
+    display: block;
+    padding-bottom: 5px;
+  }
+  .not-main{
+    display: none;
+  }
+  .main-back{
+    position: absolute;
+    left: 10px;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 414px){
    .common-inner .subsidiary li img{
