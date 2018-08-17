@@ -1420,7 +1420,7 @@ img{
 .img-sm{
   display: none;
 }
-.mobile-inner,.news-inner-mobile{
+.mobile-inner,.news-inner-mobile,.common-inner-title-mobile{
   display: none;
 }
 @media screen and (max-width: 768px) {
@@ -1807,7 +1807,7 @@ img{
   .news-inner,.news-child,.ar,.other-link,.in-banner{
     display: none;
   }
-  .news-inner-mobile{
+  .news-inner-mobile,.common-inner-title-mobile{
     display: block;
   }
   .news-nav{
@@ -1891,7 +1891,7 @@ img{
     margin: 5px 0 10px 0;
   }
   .common-inner{
-    padding:10px 0 0 0;
+    padding:0;
   }
   .ladder{
     margin: 10px 0 0;
@@ -1992,4 +1992,32 @@ img{
   .common-inner li div img{
     height: auto;
   }
+  .common-inner-title-mobile h3{
+    margin: 15px auto;
+    height: 32px;
+    font-size: 16px;
+    line-height: 32px;
+    width: 35%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #f5ad66;
+    border-radius: 5px;
+  }
+  .common-inner .myopia li img, .common-inner .exercise li img, .common-inner .subsidiary li img, .common-inner .system li img{
+    height: auto;
+  }
+  .common-inner .subsidiary li img{
+    height: 200px;
+  }
+  .modal-btn{
+    margin: 0;
+  }
+  .common-inner .subsidiary li{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 414px){
+   .common-inner .subsidiary li img{
+     height: 90px;
+   }
 }
