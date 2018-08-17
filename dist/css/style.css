@@ -856,9 +856,15 @@ img{
   background-color: #f2f2f2;
 }
 .modal-talent .close{
+  width: 21px;
+  height: 21px;
   border-radius: 50%;
   background-color: #bebebe;
   color: #ffffff;
+}
+.close{
+  line-height: 21px;
+  opacity: .8;
 }
 .talent-header{
   width: 95%;
@@ -1728,7 +1734,8 @@ img{
     font-weight: normal;
     width: 50%;
     float: left;
-    line-height: 34px;
+    height: 34px;
+    line-height: 45px;
   }
   .form-in .col-md-12 button{
     font-size: 12px;
@@ -1756,5 +1763,45 @@ img{
     line-height: 40px;
     padding-left: 5px;
     margin: 0;
+  }
+  .talent-header{
+    padding: 20px 20px 5px;
+  }
+  .talent-header h4,.talent-inner h5{
+    font-size: 16px;
+  }
+  .talent-header span{
+    font-size: 14px;
+  }
+  .talent-header p{
+    font-size: 14px;
+    margin: 0;
+  }
+  .modal-body ul{
+    padding: 0;
+  }
+  .modal-body .experience li{
+    font-size: 12px;
+    width: 25%;
+    height: 20px;
+    line-height: 20px;
+  }
+  .experience span{
+    width: 12px;
+    height: 20px;
+  }
+  .modal-body ul{
+    margin-top: 10px;
+  }
+  .line{
+    margin:10px auto;
+  }
+  .talent-line{
+    margin-right: 5px;
+    font-size: 18px;
+  }
+  .talent-inner p{
+    line-height: 20px;
+    padding: 0 10px;
   }
 }
