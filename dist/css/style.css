@@ -2068,6 +2068,9 @@ img{
   .navbar-nav>li>a{
     font-size: 12px;
   }
+  .contact-map{
+    margin: 10px 0;
+  }
 }
 @media screen and (max-width: 414px){
    .common-inner .subsidiary li img{
