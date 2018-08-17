@@ -1990,7 +1990,7 @@ img{
     font-size: 14px;
   }
   .common-inner li div img{
-    height: auto;
+    height: 95px;
   }
   .common-inner-title-mobile h3{
     margin: 15px auto;
@@ -2014,6 +2014,17 @@ img{
   }
   .common-inner .subsidiary li{
     width: 50%;
+  }
+  .common-inner ol{
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 65px;
+  }
+  .common-inner ol li{
+    padding-right: 40px;
+  }
+  .common-inner .restore li{
+    padding: 10px;
   }
 }
 @media screen and (max-width: 414px){
