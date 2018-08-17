@@ -1502,7 +1502,7 @@ img{
     text-align: left;
   }
   .navbar-nav>li.cont a{
-    font-size: 16px;
+    font-size: 12px;
   }
   .navbar-default .navbar-nav>li.cont>a, .navbar-default .navbar-nav>li.cont>a:focus, .navbar-default .navbar-nav>li.cont>a:hover{
     background: none;
@@ -2064,6 +2064,9 @@ img{
     top: 50%;
     transform: translateY(-50%);
     font-size: 30px;
+  }
+  .navbar-nav>li>a{
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 414px){
