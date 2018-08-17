@@ -2023,8 +2023,18 @@ img{
   .common-inner ol li{
     padding-right: 40px;
   }
-  .common-inner .restore li{
+  .common-inner .restore li,.common-inner .device li{
     padding: 10px;
+  }
+  .common-inner .system li{
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  .common-inner .system li div{
+    padding: 0 2px;
+  }
+  .common-inner .device li p{
+    padding: 0 5px;
   }
 }
 @media screen and (max-width: 414px){
