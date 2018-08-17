@@ -529,7 +529,6 @@ img{
 }
 .banner.investment-banner{
   background: url("../img/招商.jpg") no-repeat;
-  height: 660px;
 }
 .banner h1{
   height: 200px;
@@ -697,6 +696,7 @@ img{
   background-color: #e47413;
   border-radius: 50%;
   margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 3px;
 }
 .course-img{
@@ -1804,7 +1804,7 @@ img{
     line-height: 20px;
     padding: 0 10px;
   }
-  .news-inner,.news-child,.ar,.other-link{
+  .news-inner,.news-child,.ar,.other-link,.in-banner{
     display: none;
   }
   .news-inner-mobile{
@@ -1875,5 +1875,121 @@ img{
   .common-inner p, .common-inner b{
     font-size: 12px;
     line-height: 18px;
+  }
+  .inves-inner,.inves-inner ul{
+    padding: 0;
+  }
+  .inves-inner img{
+    height: auto;
+  }
+  .inves-inner ul li{
+    padding: 0;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .inves-inner div{
+    margin: 5px 0 10px 0;
+  }
+  .common-inner{
+    padding:10px 0 0 0;
+  }
+  .ladder{
+    margin: 10px 0 0;
+  }
+  .ladder-one div{
+    margin: 0 25px 5px;
+  }
+  .common-inner .ladder p{
+    padding: 5px 5px 0;
+    line-height: 14px;
+  }
+  .ladder-modal,.ladder-modal div{
+    height: 75px;
+  }
+  .ladder-modal .ladder-icon{
+    width: 40px;
+    height: 45px;
+    top: 17px;
+  }
+  .ladder-two .ladder-icon{
+    right: 27%;
+  }
+  .ladder-three .ladder-icon{
+    right: 43%;
+  }
+  .ladder-four .ladder-icon{
+    right: 58%;
+  }
+  .ladder-five .ladder-icon{
+    right: 73%;
+  }
+  .ladder-six .ladder-icon{
+    right: 88%;
+  }
+  .ladder-text ul li span{
+    font-size: 12px;
+  }
+  .ladder-text ul li{
+    font-size: 12px;
+    line-height: 18px;
+    padding: 10px 10px 0 10px;
+  }
+  .can-do-img{
+    width: 80%;
+    margin: 20px auto;
+  }
+  .can-do-text{
+    width: 90%;
+  }
+  .can-do-text dl span{
+    width: 30px;
+    height: 32px;
+  }
+  .can-do-text dl dt{
+    font-size: 16px;
+  }
+  .can-do-text dl dd{
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .case{
+    margin: 0;
+  }
+  .common-inner ul{
+    padding: 0;
+  }
+  .bad p,.bad b{
+    padding: 0 10px;
+  }
+  .compared>div{
+    padding: 10px;
+    width: 45%;
+    margin: 10px 2.5%;
+  }
+  .compared p{
+    margin: 10px 0;
+    padding: 0 10px;
+  }
+  .compared .compared-img.logo img,.compared .compared-img img{
+    width: 40px;
+    height: auto;
+  }
+  .summary{
+    margin: 10px 0;
+  }
+  .summary span{
+    font-size: 12px;
+  }
+  .case .summary img{
+    height: auto;
+    width: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  .case ul li{
+    font-size: 14px;
+  }
+  .common-inner li div img{
+    height: auto;
   }
 }
