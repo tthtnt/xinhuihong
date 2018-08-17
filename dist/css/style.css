@@ -687,6 +687,7 @@ img{
 .about-inner  ul  li,.inves-inner ul li,.common-inner ul li{
   list-style: none;
   font-size: 18px;
+  padding: 10px;
 }
 .about-inner > ul > li:before,.inves-inner > ul > li:before,.common-inner > ul > li:before,.ladder-text ul li:before,.case>ul>li:before{
   content: "";
@@ -1676,7 +1677,9 @@ img{
   }
   .feature li span{
     width: 25px;
-    height: 25px;
+    height: 40px;
+    margin: 0;
+    padding-top: 7.5px;
   }
   .feature li p,.feature-text p{
     font-size: 12px;
@@ -1741,5 +1744,17 @@ img{
   }
   .form-control{
     padding: 2px 2px;
+  }
+  .feature ul{
+    margin: 10px 0;
+  }
+  .feature li{
+    margin:0;
+  }
+  .feature li p{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 5px;
+    margin: 0;
   }
 }
