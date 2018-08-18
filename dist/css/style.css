@@ -1343,7 +1343,6 @@ img{
   text-align: center;
   line-height: 70px;
 }
-
 /*项目案例*/
 .case{
   margin: 50px auto;
@@ -1420,8 +1419,11 @@ img{
 .img-sm{
   display: none;
 }
-.mobile-inner,.news-inner-mobile,.common-inner-title-mobile{
+.mobile-inner,.news-inner-mobile,.common-inner-title-mobile,.main-back,.glass-product{
   display: none;
+}
+.mobile-banner{
+  display: none!important;
 }
 @media screen and (max-width: 768px) {
   #carousel .carousel-inner .item{
@@ -1429,15 +1431,21 @@ img{
   }
   .index-product{
     width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 5px auto;
   }
   .index-product .col-md-4:nth-child(2) {
-    padding: 0 20px;
+    padding: 0 10px;
   }
   .big-product{
     height: auto;
   }
   .black-footer{
     display: none;
+  }
+  .pc-banner{
+    display: none!important;
   }
   .end{
     display: none;
@@ -1457,13 +1465,14 @@ img{
   }
   .navbar-brand>img{
     width: 50px;
-    vertical-align: bottom;
+    vertical-align: top;
   }
   .navbar-brand h1{
     font-size: 20px;
   }
   .navbar-brand p{
     font-size: 12px;
+    line-height: 12px;
   }
   .navbar-collapse{
     width: 35%;
@@ -1513,8 +1522,11 @@ img{
   .phone{
     display: none;
   }
-  .mobile-footer{
+  .mobile-footer,.glass-product{
     display: block;
+  }
+  .mobile-banner{
+    display: block!important;
   }
   .mobile-footer-top{
     width: 90%;
@@ -1569,11 +1581,23 @@ img{
     width: auto;
     height: auto;
   }
+  .index-product a{
+    height: auto;
+  }
   .index-product a div{
     background-color: #fff;
   }
+  .index-product a .img-sm{
+    position: relative;
+    line-height: 12px;
+    color: #000;
+    font-size: 12px;
+  }
+  .index-product a .img-sm p{
+    margin: 0;
+  }
   .index-product .col-md-4:nth-child(1),.index-product .col-md-4:nth-child(3){
-    padding: 0 20px;
+    padding: 0 10px;
   }
   .eye-product,.re-product,.she-product{
     display: none;
@@ -1682,10 +1706,9 @@ img{
     letter-spacing: 5px;
   }
   .feature li span{
-    width: 25px;
-    height: 40px;
+    width: 15%;
+    height: auto;
     margin: 0;
-    padding-top: 7.5px;
   }
   .feature li p,.feature-text p{
     font-size: 12px;
@@ -1720,8 +1743,8 @@ img{
     font-size: 12px;
   }
   .talent-ul button{
-    font-size: 14px;
-    padding: 0 20px;
+    font-size: 12px;
+    padding: 0 10px;
     height: 30px;
     line-height: 30px;
   }
@@ -1759,8 +1782,8 @@ img{
     margin:0;
   }
   .feature li p{
-    height: 40px;
-    line-height: 40px;
+    width: 85%;
+    line-height: 20px;
     padding-left: 5px;
     margin: 0;
   }
@@ -1873,6 +1896,7 @@ img{
     color: #000;
   }
   .common-inner p, .common-inner b{
+    padding: 0 10px;
     font-size: 12px;
     line-height: 18px;
   }
@@ -2003,6 +2027,12 @@ img{
     background-color: #f5ad66;
     border-radius: 5px;
   }
+  .common-inner ul li{
+    font-size: 12px;
+  }
+  .common-inner .myopia li{
+    /*font-size: 12px;*/
+  }
   .common-inner .myopia li img, .common-inner .exercise li img, .common-inner .subsidiary li img, .common-inner .system li img{
     height: auto;
   }
@@ -2027,11 +2057,12 @@ img{
     padding: 10px;
   }
   .common-inner .system li{
-    margin: 10px 0;
+    margin:0;
     font-size: 16px;
   }
   .common-inner .system li div{
     padding: 0 2px;
+    margin: 0;
   }
   .common-inner .device li p{
     padding: 0 5px;
@@ -2071,9 +2102,21 @@ img{
   .contact-map{
     margin: 10px 0;
   }
+  .common-inner p span, .restore-inner p span{
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 414px){
    .common-inner .subsidiary li img{
      height: 90px;
    }
+  .navbar-brand>img{
+    width: 30px;
+  }
+  .navbar-brand h1{
+    font-size: 16px;
+  }
+  .navbar-brand div{
+    width: 80%;
+  }
 }
