@@ -338,7 +338,7 @@ img{
 
 /*three-big-product-start*/
 .big-product{
-  height: 640px;
+  height: auto;
   background-color: palegoldenrod;
   position: relative;
 }
