@@ -352,21 +352,21 @@ img{
   z-index: 998;
 }
 .big-product:nth-child(1){
-  background: url("../img/眼镜产品系列.jpg") no-repeat;
+  background: url("../img/glassSir.jpg") no-repeat;
 }
 .big-product:nth-child(1) h2{
   top: 80px;
   right: 360px;
 }
 .big-product:nth-child(2){
-  background: url("../img/康复1.jpg") no-repeat;
+  background: url("../img/re1.jpg") no-repeat;
 }
 .big-product:nth-child(2) h2{
   top: 120px;
   right: 360px;
 }
 .big-product:nth-child(3){
-  background: url("../img/科技.jpg") no-repeat;
+  background: url("../img/tex.jpg") no-repeat;
 }
 .big-product:nth-child(3) h2{
   top: 115px;
@@ -487,6 +487,9 @@ img{
 .footer-bottom a,.footer-bottom i{
   color: #2c7cbc;
 }
+.footer-bottom dd a{
+  color: #ffffff;
+}
 .end{width:100%;height:60px; background: #282628;}
 .end:hover{
   background-color: #454545;
@@ -511,25 +514,25 @@ img{
   background: url("../img/eyewear-banner.jpg") no-repeat top left;
 }
 .banner.re-banner{
-  background: url("../img/康复banner.jpg") no-repeat top left;
+  background: url("../img/re-banner.jpg") no-repeat top left;
 }
 .banner.eq-banner{
-  background: url("../img/设备banner.jpg") no-repeat top left;
+  background: url("../img/me-banner.jpg") no-repeat top left;
 }
 .banner.eye-banner{
-  background: url("../img/眼镜产品系列banner.jpg") no-repeat top left;
+  background: url("../img/glass-sir-banner.jpg") no-repeat top left;
 }
 .banner.about-banner{
-  background: url("../img/关于我们.jpg") no-repeat;
+  background: url("../img/about-u-s.jpg") no-repeat;
 }
 .banner.news-banner{
-  background: url("../img/新闻动态.jpg") no-repeat;
+  background: url("../img/new-d.jpg") no-repeat;
 }
 .banner.cont-banner{
-  background: url("../img/联系我们.jpg") no-repeat;
+  background: url("../img/cont-u-s.jpg") no-repeat;
 }
 .banner.investment-banner{
-  background: url("../img/招商.jpg") no-repeat;
+  background: url("../img/i.jpg") no-repeat;
 }
 .banner h1{
   height: 200px;
